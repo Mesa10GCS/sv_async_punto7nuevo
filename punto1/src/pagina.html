@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Control LEDS ESP32</title>
+  <style>
+    body{ background-color: #ecf0f1;}
+    html { font-family: Arial Black; text-align: center; color: #2c3e50 }
+    .boton { display: inline-block; background-color: #4CAF50; border: 1px solid; border-color: black; color: white;
+           height:60px; width: 180px; text-decoration: none; font-size: 24px; margin: 2px; cursor: pointer; border-radius: 15px; }
+    .off{ background-color: #c0392b; }
+    .low{ background-color: #2980b9; }
+    .medium{ background-color: #27ae60; }
+    .high{ background-color: #f39c12; }
+  </style>
+</head>
+<body>
+  <h1>CONTROL DE VENTILADOR</h1>
+  <span>Velocidad Actual: XXXX</span>
+  <p>
+    <a href="/1"><button class="boton off">Off</button></a>
+  </p>
+   <p>
+    <a href="/2"><button class="boton low">Low</button></a>
+  </p>
+ <p>
+    <a href="/3"><button class="boton medium">Medium</button></a>
+  </p>
+   <p>
+    <a href="/4"><button class="boton high">High</button></a>
+  </p>
+</body>
+</html>
